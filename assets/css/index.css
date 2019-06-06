@@ -1,0 +1,48 @@
+body {
+  font-family: arial,sans-serif;
+}
+
+a {
+  color: #3333CC;
+  font-size: 1.1em;
+  text-decoration: underline;
+}
+
+header {
+    height: 72px;
+    background-color: #f0f7fb;
+    background-repeat: repeat-x;
+    position: relative;
+    background-image: url(../images/serp_sprite2.gif);
+    background-position: 0px -10px;
+}
+
+header > img {
+  position: relative;
+  left: 20px;
+  top: 11px;
+}
+
+main {
+  font-size: 0.8em;
+}
+main > h1 {
+      color: #CC0000;
+    font-size: 1.4em;
+    border-bottom: 1px dotted #CCC;
+    line-height: 2em;
+    margin-top: 0px;
+}
+
+p {
+  margin: 0;
+}
+
+h5 {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+ .uppercase {
+  text-transform: uppercase;
+}
